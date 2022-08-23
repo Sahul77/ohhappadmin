@@ -1,0 +1,57 @@
+.login_signup_btn {
+    background: linear-gradient(to right, rgb(255, 56, 92), rgb(186, 50, 75));
+    color: #fff;
+}
+
+.header-background {
+    background-color: rgb(255, 56, 92);
+}
+
+table.dataTable>tbody>tr.selected {
+    background-color: rgba(248, 248, 248, 0.9) !important;
+}
+
+table.dataTable>tbody>tr>td.sorting_1 {
+    background-color: rgba(248, 248, 248, 0.9) !important;
+}
+
+.custom_style_switch {
+    height: 1.8em !important;
+}
+
+.page-item:hover:not(.offset) .page-link {
+    color: rgb(255, 249, 169);
+}
+
+
+/* ScrollBar Design */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(255, 83, 83);
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #a31717;
+}
